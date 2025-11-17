@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\razdel c\\Desktop\\Homework22.11\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{013FFD46-2559-46C5-8DF6-A42D673DCF13}|Homework22.11.Task1\\Homework22.11.Task1.csproj|d:\\razdel c\\desktop\\homework22.11\\homework22.11.task1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{013FFD46-2559-46C5-8DF6-A42D673DCF13}|Homework22.11.Task1\\Homework22.11.Task1.csproj|solutionrelative:homework22.11.task1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{013FFD46-2559-46C5-8DF6-A42D673DCF13}|Homework22.11.Task1\\Homework22.11.Task1.csproj|d:\\razdel c\\desktop\\homework22.11\\homework22.11.task1\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{013FFD46-2559-46C5-8DF6-A42D673DCF13}|Homework22.11.Task1\\Homework22.11.Task1.csproj|solutionrelative:homework22.11.task1\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 116,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\razdel c\\Desktop\\Homework22.11\\Homework22.11.Task1\\Model\\Employee.cs",
+              "RelativeDocumentMoniker": "Homework22.11.Task1\\Model\\Employee.cs",
+              "ToolTip": "D:\\razdel c\\Desktop\\Homework22.11\\Homework22.11.Task1\\Model\\Employee.cs",
+              "RelativeToolTip": "Homework22.11.Task1\\Model\\Employee.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAcwBYAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T15:17:40.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\razdel c\\Desktop\\Homework22.11\\Homework22.11.Task1\\Program.cs",
+              "RelativeDocumentMoniker": "Homework22.11.Task1\\Program.cs",
+              "ToolTip": "D:\\razdel c\\Desktop\\Homework22.11\\Homework22.11.Task1\\Program.cs*",
+              "RelativeToolTip": "Homework22.11.Task1\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAClAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T15:15:59.799Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 116,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
