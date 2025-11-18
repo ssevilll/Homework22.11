@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\razdel c\\Desktop\\Homework22.11\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{013FFD46-2559-46C5-8DF6-A42D673DCF13}|Homework22.11.Task1\\Homework22.11.Task1.csproj|d:\\razdel c\\desktop\\homework22.11\\homework22.11.task1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{013FFD46-2559-46C5-8DF6-A42D673DCF13}|Homework22.11.Task1\\Homework22.11.Task1.csproj|solutionrelative:homework22.11.task1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4AEB66F4-8664-43E1-B5F7-A33754482E94}|Homework22.11.Task2\\Homework22.11.Task2.csproj|d:\\razdel c\\desktop\\homework22.11\\homework22.11.task2\\excep\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AEB66F4-8664-43E1-B5F7-A33754482E94}|Homework22.11.Task2\\Homework22.11.Task2.csproj|solutionrelative:homework22.11.task2\\excep\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{013FFD46-2559-46C5-8DF6-A42D673DCF13}|Homework22.11.Task1\\Homework22.11.Task1.csproj|d:\\razdel c\\desktop\\homework22.11\\homework22.11.task1\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{013FFD46-2559-46C5-8DF6-A42D673DCF13}|Homework22.11.Task1\\Homework22.11.Task1.csproj|solutionrelative:homework22.11.task1\\model\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4AEB66F4-8664-43E1-B5F7-A33754482E94}|Homework22.11.Task2\\Homework22.11.Task2.csproj|d:\\razdel c\\desktop\\homework22.11\\homework22.11.task2\\excep\\notavailableexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AEB66F4-8664-43E1-B5F7-A33754482E94}|Homework22.11.Task2\\Homework22.11.Task2.csproj|solutionrelative:homework22.11.task2\\excep\\notavailableexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AEB66F4-8664-43E1-B5F7-A33754482E94}|Homework22.11.Task2\\Homework22.11.Task2.csproj|d:\\razdel c\\desktop\\homework22.11\\homework22.11.task2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AEB66F4-8664-43E1-B5F7-A33754482E94}|Homework22.11.Task2\\Homework22.11.Task2.csproj|solutionrelative:homework22.11.task2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 116,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "D:\\razdel c\\Desktop\\Homework22.11\\Homework22.11.Task1\\Model\\Employee.cs",
-              "RelativeDocumentMoniker": "Homework22.11.Task1\\Model\\Employee.cs",
-              "ToolTip": "D:\\razdel c\\Desktop\\Homework22.11\\Homework22.11.Task1\\Model\\Employee.cs",
-              "RelativeToolTip": "Homework22.11.Task1\\Model\\Employee.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAcwBYAAABqAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "D:\\razdel c\\Desktop\\Homework22.11\\Homework22.11.Task2\\Excep\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "Homework22.11.Task2\\Excep\\NotFoundException.cs",
+              "ToolTip": "D:\\razdel c\\Desktop\\Homework22.11\\Homework22.11.Task2\\Excep\\NotFoundException.cs",
+              "RelativeToolTip": "Homework22.11.Task2\\Excep\\NotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T15:17:40.293Z",
+              "WhenOpened": "2025-11-18T13:36:10.133Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\razdel c\\Desktop\\Homework22.11\\Homework22.11.Task1\\Program.cs",
-              "RelativeDocumentMoniker": "Homework22.11.Task1\\Program.cs",
-              "ToolTip": "D:\\razdel c\\Desktop\\Homework22.11\\Homework22.11.Task1\\Program.cs",
-              "RelativeToolTip": "Homework22.11.Task1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAClAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "NotAvailableException.cs",
+              "DocumentMoniker": "D:\\razdel c\\Desktop\\Homework22.11\\Homework22.11.Task2\\Excep\\NotAvailableException.cs",
+              "RelativeDocumentMoniker": "Homework22.11.Task2\\Excep\\NotAvailableException.cs",
+              "ToolTip": "D:\\razdel c\\Desktop\\Homework22.11\\Homework22.11.Task2\\Excep\\NotAvailableException.cs",
+              "RelativeToolTip": "Homework22.11.Task2\\Excep\\NotAvailableException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T15:15:59.799Z",
+              "WhenOpened": "2025-11-18T13:34:24.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\razdel c\\Desktop\\Homework22.11\\Homework22.11.Task2\\Program.cs",
+              "RelativeDocumentMoniker": "Homework22.11.Task2\\Program.cs",
+              "ToolTip": "D:\\razdel c\\Desktop\\Homework22.11\\Homework22.11.Task2\\Program.cs",
+              "RelativeToolTip": "Homework22.11.Task2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T13:31:04.763Z",
               "EditorCaption": ""
             }
           ]
