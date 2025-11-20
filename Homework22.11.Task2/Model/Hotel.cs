@@ -5,8 +5,9 @@ namespace Homework22._11.Task2.Model
     internal class Hotel
     {
         public string Name { get; set; }
-        private Room[] _rooms { get; set; } = new Room[0];
-        
+        private Room[] _rooms { get; set; }
+
+
         public Room this[int index]
         {
             get
@@ -44,6 +45,7 @@ namespace Homework22._11.Task2.Model
         public Hotel(string name)
         {
             Name = name;
+            _rooms = new Room[0];
         }
 
         public void Reserve(int? roomId)
