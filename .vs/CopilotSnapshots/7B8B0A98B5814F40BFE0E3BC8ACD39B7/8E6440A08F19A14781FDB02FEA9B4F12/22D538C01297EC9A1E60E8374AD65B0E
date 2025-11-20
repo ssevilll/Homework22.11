@@ -1,0 +1,134 @@
+﻿namespace Homework22._11.Task2.Model
+{
+    internal class Hotel
+    {
+        public string Name { get; set; }
+        private Room[] _rooms { get; set; } = new Room[0];
+        
+        public Room this[int index]
+        {
+            get
+            {
+                if (index >= 0 && index < _rooms.Length)
+                {
+                    return _rooms[index];
+                }
+                throw new IndexOutOfRangeException("Index is out of range");
+            }
+            set
+            {
+                if (index >= 0 && index < _rooms.Length)
+                {
+                    _rooms[index] = value;
+                }
+                else
+                {
+                    throw new IndexOutOfRangeException("Index is out of range");
+                }
+            }
+        }
+        
+        public void AddRoom(Room room)
+        {
+            Room[] newRooms = new Room[_rooms.Length + 1];
+            for (int i = 0; i < _rooms.Length; i++)
+            {
+                newRooms[i] = _rooms[i];
+            }
+            newRooms[_rooms.Length] = room;
+            _rooms = newRooms;
+        }
+        
+        // Method to get a room by ID
+        public Room GetRoomById(int roomId)
+        {
+            foreach (Room room in _rooms)
+            {
+                if (room.Id == roomId)
+                {
+                    return room;
+                }
+            }
+            return null; // Room not found
+        }
+        
+        // Method to reserve a room by ID
+        public void ReserveRoom(int roomId)
+        {
+            Room room = GetRoomById(roomId);
+            if (room != null && room.IsAvailable)
+            {
+                room.IsAvailable = false;
+                Console.WriteLine($"Room {roomId} has been successfully reserved.");
+            }
+            else if (room != null)
+            {
+                Console.WriteLine($"Room {roomId} is not available for reservation.");
+            }
+            else
+            {
+                Console.WriteLine($"Room {roomId} not found in this hotel.");
+            }
+        }
+        
+        // Method to make a room available again (checkout)
+        public void CheckoutRoom(int roomId)
+        {
+            Room room = GetRoomById(roomId);
+            if (room != null)
+            {
+                room.IsAvailable = true;
+                Console.WriteLine($"Room {roomId} is now available.");
+            }
+            else
+            {
+                Console.WriteLine($"Room {roomId} not found in this hotel.");
+            }
+        }
+        
+        // Method to get all available rooms
+        public Room[] GetAvailableRooms()
+        {
+            int availableCount = 0;
+            foreach (Room room in _rooms)
+            {
+                if (room.IsAvailable)
+                {
+                    availableCount++;
+                }
+            }
+            
+            Room[] availableRooms = new Room[availableCount];
+            int index = 0;
+            foreach (Room room in _rooms)
+            {
+                if (room.IsAvailable)
+                {
+                    availableRooms[index++] = room;
+                }
+            }
+            
+            return availableRooms;
+        }
+        
+        public Hotel(string name)
+        {
+            Name = name;
+        }
+        
+        public static void Reserve(int? roomId)
+        {
+            if (roomId is null)
+            {
+                Console.WriteLine("Room ID cannot be null.");
+                return;
+            }
+            
+            // Note: Since this is a static method, we need a hotel instance
+            // This implementation assumes you have a way to get the hotel instance
+            // You might want to make this an instance method instead or pass hotel as parameter
+            Console.WriteLine($"Static reserve method called for room {roomId}");
+            Console.WriteLine("Note: Static method cannot access instance rooms directly.");
+        }
+    }
+}

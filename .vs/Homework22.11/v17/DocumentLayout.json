@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\razdel c\\Desktop\\Homework22.11\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4AEB66F4-8664-43E1-B5F7-A33754482E94}|Homework22.11.Task2\\Homework22.11.Task2.csproj|d:\\razdel c\\desktop\\homework22.11\\homework22.11.task2\\model\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4AEB66F4-8664-43E1-B5F7-A33754482E94}|Homework22.11.Task2\\Homework22.11.Task2.csproj|solutionrelative:homework22.11.task2\\model\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4AEB66F4-8664-43E1-B5F7-A33754482E94}|Homework22.11.Task2\\Homework22.11.Task2.csproj|d:\\razdel c\\desktop\\homework22.11\\homework22.11.task2\\model\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AEB66F4-8664-43E1-B5F7-A33754482E94}|Homework22.11.Task2\\Homework22.11.Task2.csproj|solutionrelative:homework22.11.task2\\model\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4AEB66F4-8664-43E1-B5F7-A33754482E94}|Homework22.11.Task2\\Homework22.11.Task2.csproj|d:\\razdel c\\desktop\\homework22.11\\homework22.11.task2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4AEB66F4-8664-43E1-B5F7-A33754482E94}|Homework22.11.Task2\\Homework22.11.Task2.csproj|solutionrelative:homework22.11.task2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AEB66F4-8664-43E1-B5F7-A33754482E94}|Homework22.11.Task2\\Homework22.11.Task2.csproj|d:\\razdel c\\desktop\\homework22.11\\homework22.11.task2\\model\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4AEB66F4-8664-43E1-B5F7-A33754482E94}|Homework22.11.Task2\\Homework22.11.Task2.csproj|solutionrelative:homework22.11.task2\\model\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,6 +27,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Hotel.cs",
+              "DocumentMoniker": "D:\\razdel c\\Desktop\\Homework22.11\\Homework22.11.Task2\\Model\\Hotel.cs",
+              "RelativeDocumentMoniker": "Homework22.11.Task2\\Model\\Hotel.cs",
+              "ToolTip": "D:\\razdel c\\Desktop\\Homework22.11\\Homework22.11.Task2\\Model\\Hotel.cs",
+              "RelativeToolTip": "Homework22.11.Task2\\Model\\Hotel.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T04:18:16.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Room.cs",
               "DocumentMoniker": "D:\\razdel c\\Desktop\\Homework22.11\\Homework22.11.Task2\\Model\\Room.cs",
               "RelativeDocumentMoniker": "Homework22.11.Task2\\Model\\Room.cs",
