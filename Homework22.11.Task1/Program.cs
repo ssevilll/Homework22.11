@@ -26,7 +26,7 @@ namespace Homework22._11.Task1
 
             for (int i = 0; i < n; i++)
             {
-                Console.WriteLine($"Enter details for employee {i + 1}:");
+                Console.WriteLine($"\nEnter details for employee {i + 1}:");
                 Console.Write("Name: ");
                 string name = Console.ReadLine();
                 Console.Write("Surname: ");
@@ -44,7 +44,7 @@ namespace Homework22._11.Task1
             Console.WriteLine("Enter the end date (yyyy-MM-dd): ");
             DateTime endDate = Convert.ToDateTime(Console.ReadLine());
             int count = Employee.GetEmployeeCount(employees, startDate, endDate);
-            Console.WriteLine($"\nNumber of employees born between {startDate.ToShortDateString()} and {endDate.ToShortDateString()} with salary greater than 2000 is {count}");
+            Console.WriteLine($"\nNumber of suitable employees is {count}");
 
         }
     }

@@ -1,0 +1,15 @@
+D:\razdel c\Desktop\Homework22.11\Homework22.11.Task3\bin\Debug\net8.0\Homework22.11.Task3.exe
+D:\razdel c\Desktop\Homework22.11\Homework22.11.Task3\bin\Debug\net8.0\Homework22.11.Task3.deps.json
+D:\razdel c\Desktop\Homework22.11\Homework22.11.Task3\bin\Debug\net8.0\Homework22.11.Task3.runtimeconfig.json
+D:\razdel c\Desktop\Homework22.11\Homework22.11.Task3\bin\Debug\net8.0\Homework22.11.Task3.dll
+D:\razdel c\Desktop\Homework22.11\Homework22.11.Task3\bin\Debug\net8.0\Homework22.11.Task3.pdb
+D:\razdel c\Desktop\Homework22.11\Homework22.11.Task3\obj\Debug\net8.0\Homework22.11.Task3.GeneratedMSBuildEditorConfig.editorconfig
+D:\razdel c\Desktop\Homework22.11\Homework22.11.Task3\obj\Debug\net8.0\Homework22.11.Task3.AssemblyInfoInputs.cache
+D:\razdel c\Desktop\Homework22.11\Homework22.11.Task3\obj\Debug\net8.0\Homework22.11.Task3.AssemblyInfo.cs
+D:\razdel c\Desktop\Homework22.11\Homework22.11.Task3\obj\Debug\net8.0\Homework22.11.Task3.csproj.CoreCompileInputs.cache
+D:\razdel c\Desktop\Homework22.11\Homework22.11.Task3\obj\Debug\net8.0\Homework22.11.Task3.sourcelink.json
+D:\razdel c\Desktop\Homework22.11\Homework22.11.Task3\obj\Debug\net8.0\Homework22.11.Task3.dll
+D:\razdel c\Desktop\Homework22.11\Homework22.11.Task3\obj\Debug\net8.0\refint\Homework22.11.Task3.dll
+D:\razdel c\Desktop\Homework22.11\Homework22.11.Task3\obj\Debug\net8.0\Homework22.11.Task3.pdb
+D:\razdel c\Desktop\Homework22.11\Homework22.11.Task3\obj\Debug\net8.0\Homework22.11.Task3.genruntimeconfig.cache
+D:\razdel c\Desktop\Homework22.11\Homework22.11.Task3\obj\Debug\net8.0\ref\Homework22.11.Task3.dll

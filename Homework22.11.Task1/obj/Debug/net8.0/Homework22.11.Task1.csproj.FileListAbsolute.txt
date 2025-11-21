@@ -12,3 +12,4 @@ D:\razdel c\Desktop\Homework22.11\Homework22.11.Task1\obj\Debug\net8.0\refint\Ho
 D:\razdel c\Desktop\Homework22.11\Homework22.11.Task1\obj\Debug\net8.0\Homework22.11.Task1.pdb
 D:\razdel c\Desktop\Homework22.11\Homework22.11.Task1\obj\Debug\net8.0\Homework22.11.Task1.genruntimeconfig.cache
 D:\razdel c\Desktop\Homework22.11\Homework22.11.Task1\obj\Debug\net8.0\ref\Homework22.11.Task1.dll
+D:\razdel c\Desktop\Homework22.11\Homework22.11.Task1\obj\Debug\net8.0\Homework22.11.Task1.sourcelink.json

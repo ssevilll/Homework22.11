@@ -7,8 +7,19 @@ namespace Homework22._11.Task2.Model
         public string Name { get; set; }
         private Room[] _rooms { get; set; }
 
+        public void AddRoom(Room room)
+        {
+            Room[] newRooms = new Room[_rooms.Length + 1];
+            for (int i = 0; i < _rooms.Length; i++)
+            {
+                newRooms[i] = _rooms[i];
+            }
+            newRooms[_rooms.Length] = room;
+            _rooms = newRooms;
 
-        public Room this[int index]
+        }
+
+        public Room this [int index]
         {
             get
             {
@@ -31,22 +42,13 @@ namespace Homework22._11.Task2.Model
             }
         }
         
-        public void AddRoom(Room room)
-        {
-            Room[] newRooms = new Room[_rooms.Length + 1];
-            for (int i = 0; i < _rooms.Length; i++)
-            {
-                newRooms[i] = _rooms[i];
-            }
-            newRooms[_rooms.Length] = room;
-            _rooms = newRooms;
-        }
         
         public Hotel(string name)
         {
             Name = name;
             _rooms = new Room[0];
         }
+
 
         public void Reserve(int? roomId)
         {
@@ -65,10 +67,10 @@ namespace Homework22._11.Task2.Model
             }
 
             if (room == null)
-                throw new NotFoundException("Room not found.");
+                throw new NotFoundException();
 
             if (!room.IsAvailable)
-                throw new NotAvailableException("This room is already reserved.");
+                throw new NotAvailableException();
 
             room.IsAvailable = false;
         }

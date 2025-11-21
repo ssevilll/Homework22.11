@@ -1,0 +1,16 @@
+﻿namespace Homework22._11.Task2.Excep
+{
+    internal class NotAvailableException : Exception
+    {
+        public string message = "The requested item is not available.";
+        public NotAvailableException()
+        {
+        }
+        public NotAvailableException(string? message)
+        {
+        }
+        public NotAvailableException(string? message, Exception? innerException)
+        {
+        }
+    }
+}

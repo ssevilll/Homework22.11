@@ -3,7 +3,7 @@
     internal class Room
     {
         private static int _id=0;
-        public int Id;
+        public int Id { get { return _id; } }
         public string Name { get; set; }
         public double Price { get; set; }
         public int PersonCapacity { get; set; }
@@ -11,10 +11,10 @@
         public Room(string name, double price, int capacity)
         {
             _id++;
-            Id = _id;
             Name = name;
             Price = price;
             PersonCapacity = capacity;
+            IsAvailable= true;
         }
         public string ShowInfo()
         {
